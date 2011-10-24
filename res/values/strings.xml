@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Options -->
+	<string name="playmusic">playmusic</string>
+	<string name="showsolvable">showsolvable</string>
+	<string name="showincorrect">showincorrect</string>
+
+    <string name="app_name">Sudoku</string>
+    <string name="main_title">Sudoku</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="save_game_label">Save Game</string>
+    <string name="game_saved_label">Game Saved</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="options_label">Options</string>
+    <string name="options_title">Sudoku options</string>
+    <string name="play_music_label">Play music</string>
+    <string name="show_hints_label">Show hints</string>
+    <string name="game_solved">Game solved</string>
+    <string name="cell_cleared">Cell cleared</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="level">Level:</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="very_hard_label">Very Hard</string>
+	<string name="message_click_on_cell">Select a cell before entering a number.</string>
+	<string name="message_click_on_cell_hint">Select a cell to reveal hint.</string>
+	<string name="message_click_on_cell_clear">Select a cell to clear.</string>
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No moves</string>
+	<string name="solve">Solve</string>
+	<string name="new_label">New</string>
+    <string name="keypad_title">Keypad</string>
+	<string name="time">Time:</string>
+    <string name="about_title">About Sudoku</string>
+    <string name="about_text">\
+Sudoku (数独, sūdoku) is a logic-based number placement puzzle.
+The objective is to fill a 9×9 grid so that each column,
+each row,
+and each of the nine 3×3 boxes (also called blocks or regions) 
+contains the digits from 1 to 9, only one time each (that is, exclusively). 
+The puzzle setter provides a partially completed grid.
+
+\n\n<b>Mathematics of Sudoku</b>
+\nA completed Sudoku grid is a special type of Latin square with the
+additional property of no repeated values in any 3×3 block.
+
+\n\nThe number of classic 9×9 Sudoku solution grids was shown in 
+2005 by Bertram Felgenhauer and Frazer Jarvis to be 
+6,670,903,752,021,072,936,960: 
+this is roughly 0.00012% the number of 9×9 Latin squares. 
+Various other grid sizes have also been enumerated. 
+The number of essentially different solutions, when symmetries 
+such as rotation, reflection and relabelling are taken into 
+account, was shown by Ed Russell and Frazer Jarvis to be just 
+5,472,730,538.
+
+\n\nThe maximum number of givens provided while still not 
+rendering a unique solution is four short of a full grid; 
+if two instances of two numbers each are missing and the cells 
+they are to occupy form the corners of an orthogonal rectangle, 
+and exactly two of these cells are within one region, 
+there are two ways the numbers can be assigned. 
+Since this applies to Latin squares in general, most variants 
+of Sudoku have the same maximum. The inverse problem—the 
+fewest givens that render a solution unique—is unsolved, 
+although the lowest number yet found for the standard variation 
+without a symmetry constraint is 17, a number of which 
+have been found by Japanese puzzle enthusiasts, and 18 
+with the givens in rotationally symmetric cells. 
+Over 47,000 examples of Sudokus with 17 givens resulting 
+in a unique solution are known.
+
+\n\n<b>History</b>
+\nNumber puzzles first appeared in newspapers in the late 19th century, 
+when French puzzle setters began experimenting with removing 
+numbers from magic squares. Le Siècle, a Paris-based daily, 
+published a partially completed 9×9 magic square with 3×3 s
+ub-squares in 1892. It was not a Sudoku because it contained 
+double-digit numbers and required arithmetic rather than logic 
+to solve, but it shared key characteristics: each row, column 
+and sub-square added up to the same number.
+
+\n\nWithin three years Le Siècle\'s rival, La France, refined the 
+puzzle so that it was almost a modern Sudoku. It simplified 
+the 9×9 magic square puzzle so that each row and column 
+contained only the numbers 1–9, but did not mark the sub-squares. 
+Although they are unmarked, each 3×3 sub-square does indeed 
+comprise the numbers 1–9. However, the puzzle cannot be considered 
+the first Sudoku because, under modern rules, it has two solutions. 
+The puzzle setter ensured a unique solution by requiring 1–9 to 
+appear in both diagonals.
+
+\n\nThese weekly puzzles were a feature of newspaper titles including 
+L\'Echo de Paris for about a decade but disappeared about the 
+time of the First World War.
+
+\n\nAccording to Will Shortz, the modern Sudoku was most likely 
+designed anonymously by Howard Garns, a 74-year-old retired architect 
+and freelance puzzle constructor from Indiana, and first published 
+in 1979 by Dell Magazines as Number Place (the earliest known 
+examples of modern Sudoku). Garns\'s name was always present on 
+the list of contributors in issues of Dell Pencil Puzzles and 
+Word Games that included Number Place, and was always absent 
+from issues that did not. He died in 1989 before getting 
+a chance to see his creation as a worldwide phenomenon. 
+It is unclear if Garns was familiar with any of the French 
+newspapers listed above.
+
+\n\nThe puzzle was introduced in Japan by Nikoli in the paper 
+Monthly Nikolist in April 1984 as Suuji wa dokushin ni kagiru
+(数字は独身に限る, Suuji wa dokushin ni kagiru), which can be 
+translated as \"the digits must be single\" or \"the digits are 
+limited to one occurrence.\" At a later date, the name was abbreviated 
+to Sudoku by Maki Kaji (鍜治 真起), taking only the first kanji 
+of compound words to form a shorter version. 
+In 1986, Nikoli introduced two innovations: the number of givens 
+was restricted to no more than 32, and puzzles became 
+\"symmetrical\" (meaning the givens were distributed in rotationally 
+symmetric cells). It is now published in mainstream Japanese 
+periodicals, such as the Asahi Shimbun.
+
+\n\n<b>Popularity in the media</b>
+\nIn 1997, retired Hong Kong judge Wayne Gould, 59, a New Zealander,
+saw a partly completed puzzle in a Japanese bookshop. 
+Over six years he developed a computer program to produce puzzles quickly. 
+Knowing that British newspapers have a long history of publishing 
+crosswords and other puzzles, he promoted Sudoku to The Times in 
+Britain, which launched it on 12 November 2004 (calling it Su Doku).
+
+\n\nThe rapid rise of Sudoku in Britain from relative obscurity to 
+a front-page feature in national newspapers attracted commentary 
+in the media and parody (such as when The Guardian\'s G2 section 
+advertised itself as the first newspaper supplement with a 
+Sudoku grid on every page).
+Recognizing the different psychological appeals of easy and difficult 
+puzzles, The Times introduced both side by side on 20 June 2005. 
+From July 2005, Channel 4 included a daily Sudoku game in their 
+Teletext service. On 2 August, the BBC\'s programme guide Radio 
+Times featured a weekly Super Sudoku.
+
+\n\nEven the Greeks owe the publication of their first Sudoku magazine 
+to British influence. It was at Heathrow airport in the summer of 
+2005 that a Greek computer magazine publisher first laid eyes on 
+a British Sudoku magazine and - realizing the opportunity - proceeded 
+to purchase the necessary software and quickly launch the first
+local Sudoku magazine that became an instant success.
+
+\n\nIn the United States, the first newspaper to publish a Sudoku puzzle 
+by Wayne Gould was The Conway Daily Sun (New Hampshire), in 2004.
+
+\n\nThe world\'s first live TV Sudoku show, Sudoku Live, was a puzzle 
+contest first broadcast on 1 July 2005 on Sky One. 
+It was presented by Carol Vorderman. Nine teams of nine players 
+(with one celebrity in each team) representing geographical regions 
+competed to solve a puzzle. Each player had a hand-held device for 
+entering numbers corresponding to answers for four cells. 
+Phil Kollin of Winchelsea, England was the series grand prize winner 
+taking home over £23,000 over a series of games. The audience at 
+home was in a separate interactive competition, which was won 
+by Hannah Withey of Cheshire.
+
+\n\nLater in 2005, the BBC launched SUDO-Q, a game show that combines
+Sudoku with general knowledge. However, it uses only 4x4 and 6x6 puzzles.
+
+\n\nSudoku software is now also very popular on PCs, websites, and 
+mobile phones. It comes with many distributions of Linux. 
+It has also been released on portable video game handhelds such 
+as the Nintendo DS, PlayStation Portable, the Game Boy Advance, 
+and even on several iPod models. One of the most popular video 
+games featuring Sudoku is Brain Age: Train Your Brain in Minutes a Day!. 
+Critically and commercially well received, it generated 
+particular praise for its Sudoku implementation and sold more 
+than 8 million copies worldwide. Due to its popularity, Nintendo 
+made a second Brain Age game titled Brain Age 2, which has over
+100 new sudoku puzzles and other activities.
+
+\n\nReprinted from Wikipedia.
+</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+		android:key="@string/playmusic"
+		android:title="Play Music"
+		android:summary="Play background music" />
+	<!--  
+	<CheckBoxPreference
+		android:key="@string/showsolvable"
+		android:title="Show Solvable"
+		android:summary="Show game solvable" />
+	-->
+	<CheckBoxPreference
+		android:key="@string/showincorrect"
+		android:title="Show Incorrect"
+		android:summary="Show incorrect cell" />
+</PreferenceScreen>
